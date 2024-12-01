@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Oswald";
+}
+
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(./images/Rectangle.png);
+    height: 740px;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header_title {
+    text-align: center;
+    margin-top: 192px;
+    color: #fff;
+}
+
+.header_title h1 {
+    font-size: 64px;
+}
+
+.header_title p {
+    font-size: 18px;
+}
+
+.header_years {
+    background-color: #F7F7F7;
+    text-align: center;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+    padding: auto;
+}
+
+.header_years_card h1 {
+    color: #F7654A;
+    font-size: 72px;
+}
+
+.header_years_card h2 {
+    font-size: 36px;
+}
+
+.header_years_card p {
+    color: gray;
+    font-size: 18px;
+}
+
+.projeck {
+    margin-top: 257px;
+}
+
+.projeck_tittle {
+    text-align: center;
+}
+
+.Big_projeck {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projeck_card {
+    width: 350px;
+}
+
+.projeck_card p {
+    color: #999999;
+    margin-top: 20px;
+}
+
+.bold_projects {
+    padding: 10px;
+    margin-top: 150px;
+    background-color: #F7654A;
+    color: #ffff;
+}
+
+.bold_projects_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bold_projects_title h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.bold_projects_btn {
+    width: 175;
+    height: 49px;
+    font-size: 14px;
+    margin-top: 25px;
+    transition: all 0.3s;
+}
+
+.bold_projects_btn:hover {
+    border-color: darkred;
+}
+
+.going {
+    margin-top: 150px;
+}
+
+.going_card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.going_title {
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.going_card_content {
+    width: 350px;
+    text-align: center;
+    background-color: #F7F7F7;
+    padding: auto;
+    padding-top: 59px;
+    padding-bottom: 59px;
+    margin-bottom: 30px;
+}
+
+.home_bgi {
+    margin-top: 150px;
+    height: 814px;
+    background-image: url("./images/home.png");
+}
+
+.question {
+    margin-top: 150px;
+}
+
+.question_title {
+    text-align: center;
+    font-size: 36px;
+}
+
+details{
+    padding: 30px;
+    cursor: pointer;
+}
+
+summary {
+    font-size: 24px;
+    color: #F7654A;
+}
+
+details p {
+    color: #9999;
+    padding: 0;
+}
+
+.partners {
+    color: #fff;
+    background-color: #404149;
+    margin-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.partners_title {
+    text-align: center;
+    font-size: 22px;
+}
+
+.partners_logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews {
+    margin-top: 150px;
+}
+
+.reviews_title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.reviews_card_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews_card {
+    width: 350px;
+}
+
+.reviews_card_content {
+    padding: 30px;
+    background-color: #F7F7F7;
+}
+
+.reviews_card_main p {
+    color: #999999;
+}
+
+.reviews_card_nik {
+    font-size: 18px;
+}
+
+.contacts {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contacts_card {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts_card_content {
+    width: 255px;
+    height: 191px;
+}
+
+.contacts_card_content h3 {
+    color: #999999;
+    font-size: 24px;
+}
+
+.contacts_card_content h4 {
+    font-size: 24px;
+}
+
+.contacts_card_content a {
+    color: #F7654A;
+    text-decoration: none;
+}
+
+.end {
+    margin-top: 150px;
+    height: 50px;
+    background-color: #404149;
+    color: #fff;
+
+}
+
+.end p {
+    margin-top: 15px;
+}
+
+.end .container {
+    display: flex;
+    justify-content: space-between;
+
+}
